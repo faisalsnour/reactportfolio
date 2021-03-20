@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Navbar() {
+function Project() {
     return (
         <div></div>
     )
 }
 
-export default Navbar
+export default Project
