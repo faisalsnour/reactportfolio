@@ -16,24 +16,24 @@ function Navbar() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav" dir="rtl">
                         <ul className="navbar-nav">
-                            <li className="nav-item">
-                                <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+                            <li className="nav-item" >
+                                <Link to="/contact" style={{ color: "#3078c6", fontWeight: "bold" }} className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
                                     Contact
                                     </Link>
                                 {/* <a id="btnContact" className="nav-link active coloredbutton" aria-current="page" href="#contactMe">Contact</a> */}
                             </li>
                             <li className="nav-item">
-                                <Link to="/recentprojects" className={location.pathname === "/recentprojects" ? "nav-link active" : "nav-link"}>
+                                <Link to="/recentprojects" style={{ color: "#3078c6", fontWeight: "bold" }} className={location.pathname === "/recentprojects" ? "nav-link active" : "nav-link"}>
                                     Recent Projects
                                     </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
+                                <Link to="/about" style={{ color: "#3078c6", fontWeight: "bold" }} className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
                                     About
                                     </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+                                <Link to="/" style={{ color: "#3078c6", fontWeight: "bold" }} className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
                                     Home
                                     </Link>
                             </li>
