@@ -20,7 +20,7 @@ function Navbar() {
                                 <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
                                     Contact
                                     </Link>
-                                <a id="btnContact" className="nav-link active coloredbutton" aria-current="page" href="#contactMe">Contact</a>
+                                {/* <a id="btnContact" className="nav-link active coloredbutton" aria-current="page" href="#contactMe">Contact</a> */}
                             </li>
                             <li className="nav-item">
                                 <Link to="/recentprojects" className={location.pathname === "/recentprojects" ? "nav-link active" : "nav-link"}>
