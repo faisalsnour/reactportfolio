@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
     return (
-        <div class="card-body mt-5" style={{ margin: "0; font-family: Arial, Helvetica, sans-serif;" }} >
+        <div class="card-body mt-5" style={{ margin: "0; font-family: Arial, Helvetica, sans-serif;", backgroundColor: "grey" }} >
             <p style={{ display: "inline;" }} >Faisal is a Front-end Developer and Certified Professional in
             Accessibility Core Competencies CPACC with experience in designing, developing,
             and testing websites and web-applications.
