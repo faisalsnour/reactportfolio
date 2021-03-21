@@ -33,7 +33,7 @@ function Navbar() {
                                     </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/" style={{ color: "#3078c6", fontWeight: "bold" }} className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+                                <Link to="/" style={{ color: "#3078c6", fontWeight: "bold" }} className={location.pathname === "/home" ? "nav-link active" : "nav-link"}>
                                     Home
                                     </Link>
                             </li>
