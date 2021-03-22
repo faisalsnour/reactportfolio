@@ -1,0 +1,9 @@
+.navbarStyle {
+  color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbarStyle:hover {
+  color: #3078c6;
+}

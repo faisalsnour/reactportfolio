@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, useLocation } from "react-router-dom";
+import './style.css'
 
 
 function Navbar() {
@@ -17,19 +18,19 @@ function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarNav" dir="rtl">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link to="/recentprojects" style={{ color: "#3078c6", fontWeight: "bold" }} className={location.pathname === "/recentprojects" ? "nav-link active" : "nav-link"}>
-                                    Recent Projects
-                                    </Link>
+                                <Link to="/recentprojects" className={location.pathname === "/recentprojects" ? "nav-link active" : "nav-link"}>
+                                    <span className="navbarStyle">Recent Projects</span>
+                                </Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/about" style={{ color: "#3078c6", fontWeight: "bold" }} className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
-                                    About
-                                    </Link>
+                                    <span className="navbarStyle">About</span>
+                                </Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/" style={{ color: "#3078c6", fontWeight: "bold" }} className={location.pathname === "/home" ? "nav-link active" : "nav-link"}>
-                                    Home
-                                    </Link>
+                                    <span className="navbarStyle">Home</span>
+                                </Link>
                             </li>
                         </ul>
                     </div>
