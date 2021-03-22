@@ -1,4 +1,4 @@
-footer {
+#footer {
   background-color: #2e2f30;
   text-align: center;
   color: #868686;
@@ -6,7 +6,7 @@ footer {
   position: relative;
 }
 
-footer p {
+#footer p {
   margin: 0;
   top: 50%;
   left: 50%;

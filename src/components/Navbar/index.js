@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, useLocation } from "react-router-dom";
 import './style.css'
+import Logo from '../Navbar/Logo.png'
 
 
 function Navbar() {
@@ -11,7 +12,7 @@ function Navbar() {
             <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: "#FFFFFF;" }}>
                 <div className="container-fluid">
                     {/* <a id="navbar-brand" className="navbar-brand" href="index.html"><img id="logo" src="Assets/logo.png" style="top: 5px; left: 5px;" width="40px" height="40px"></a> */}
-                    {/* <!-- <a href="#"><img id="logo" src="Assets/icon.png" style="position: fixed; top: 5px; left: 5px;" width="50px" height="50px">Hello</a> --> */}
+                    <Link to="/"><img id="logo" alt="FN logo" src={Logo} style={{ position: "fixed", top: "5px", left: "5px", width: "50px", height: "50px" }} /></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
