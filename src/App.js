@@ -15,17 +15,19 @@ import Footer from "./components/Footer"
 
 function App() {
   return (
-    <div>
-      <Router>
-        <div>
-          <Navbar />
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/contact" component={Contact} />
-          <Route path="/recentprojects" component={RecentProject} />
-        </div>
-      </Router>
-      <Footer />
+    <div >
+      <div>
+        <Router>
+          <div >
+            <Navbar />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/contact" component={Contact} />
+            <Route path="/recentprojects" component={RecentProject} />
+          </div>
+        </Router>
+      </div>
+      {/* <Footer /> */}
     </div>
   );
 }
