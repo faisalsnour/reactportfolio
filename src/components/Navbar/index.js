@@ -16,12 +16,6 @@ function Navbar() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav" dir="rtl">
                         <ul className="navbar-nav">
-                            <li className="nav-item" >
-                                <Link to="/contact" style={{ color: "#3078c6", fontWeight: "bold" }} className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
-                                    Contact
-                                    </Link>
-                                {/* <a id="btnContact" className="nav-link active coloredbutton" aria-current="page" href="#contactMe">Contact</a> */}
-                            </li>
                             <li className="nav-item">
                                 <Link to="/recentprojects" style={{ color: "#3078c6", fontWeight: "bold" }} className={location.pathname === "/recentprojects" ? "nav-link active" : "nav-link"}>
                                     Recent Projects
@@ -42,7 +36,7 @@ function Navbar() {
                 </div>
             </nav>
             {/* </nav> <!--end of navbar--> */}
-        </div>
+        </div >
     )
 }
 

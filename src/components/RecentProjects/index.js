@@ -3,6 +3,8 @@ import Project from '../Project'
 import TourismApp from '../RecentProjects/TourismApp.png'
 import PasswordGenerator from '../RecentProjects/PasswordGenerator.png'
 import WorkDayScheduler from '../RecentProjects/WorkDayScheduler.png'
+import BurgerLogger from '../RecentProjects/BurgerLogger.png'
+import LMS from '../RecentProjects/LMS.png'
 
 function RecentProject() {
     return (
@@ -16,6 +18,12 @@ function RecentProject() {
             <Project image={WorkDayScheduler} name="Work Day Scheduler"
                 description="The idea of this project is to build a simple event scheduler for users where they can enter events during their working hours which is typically between 9:00 AM to 5:00 PM. Users events are saved in local storages so even when users close the application, they will find their information once they come back"
                 deployed="https://faisalsnour.github.io/WorkDayScheduler/" repository="https://github.com/faisalsnour/WorkDayScheduler" />
+            <Project image={BurgerLogger} name="Burger Logger"
+                description="To create a burger logger using MySQL, Node, Express, Handlebars, ORM and Heroku to deploye the application. The application allows users to enter burger names into the database, validates user's entry to ensure a burger name is entered and displays the entered burger on the left side of the page, waiting to be devoured. Once the user clicks the devour button, the burger will move to the right side of the page"
+                deployed="https://faisal-burgerlog.herokuapp.com/" repository="https://github.com/faisalsnour/BurgerLogger" />
+            <Project image={LMS} name="Library Management System"
+                description="To build a management system that helps in handling the primary functions of libraries like maintaining the database for entering new books, tracking books that have been borrowed by members and storing members data in secure database"
+                deployed="https://library-management-system-lms.herokuapp.com/" repository="https://github.com/faisalsnour/library-management-system" />
         </div>
     )
 }
