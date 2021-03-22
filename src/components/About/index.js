@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.css'
 import Foooter from '../Foooter'
+import Square from '../Square'
 
 
 function About() {
@@ -26,6 +27,7 @@ function About() {
                 <p>Faisal has solid knowledge about HTML5, CSS, SASS, GIT, SQL, JavaSript, BootStrap, React JS,
                             Express.JS, RESTful API, Adobe Experience Manager, Agile Development, Jira, Adobe Photoshop, InVision and Sketch</p>
             </div>
+            <Square />
             <Foooter style={{ position: "fixed" }} />
         </>
     )
