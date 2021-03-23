@@ -26,7 +26,7 @@ function RecentProject() {
             <Project image={LMS} name="Library Management System"
                 description="To build a management system that helps in handling the primary functions of libraries like maintaining the database for entering new books, tracking books that have been borrowed by members and storing members data in secure database"
                 deployed="https://library-management-system-lms.herokuapp.com/" repository="https://github.com/faisalsnour/library-management-system" />
-            <Foooter />
+            {/* <Foooter /> */}
         </div>
 
     )

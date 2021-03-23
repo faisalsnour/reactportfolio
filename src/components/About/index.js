@@ -2,6 +2,7 @@ import React from 'react'
 import './style.css'
 import Foooter from '../Foooter'
 import Square from '../Square'
+import Resume from '../About/Resume.pdf'
 
 
 function About() {
@@ -26,9 +27,11 @@ function About() {
                 </p>
                 <p>Faisal has solid knowledge about HTML5, CSS, SASS, GIT, SQL, JavaSript, BootStrap, React JS,
                             Express.JS, RESTful API, Adobe Experience Manager, Agile Development, Jira, Adobe Photoshop, InVision and Sketch</p>
+                <p style={{ marginTop: "10px", marginLeft: "0px", fontWeight: "bold", textDecoration: "underline" }}><a id="pdfResume" href={Resume} download="FaisalNour-Resume">Download PDF resume</a></p>
+
             </div>
             <Square />
-            <Foooter style={{ position: "fixed" }} />
+            {/* <Foooter style={{ position: "fixed" }} /> */}
         </>
     )
 }

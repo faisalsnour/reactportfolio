@@ -5,7 +5,7 @@ import Social from '../Social'
 function Footer() {
     return (
         <>
-            <div style={{ position: "absolute", left: "0", bottom: "0", right: "0", backgroundColor: "#454647" }}>
+            <div style={{ position: "fixed", left: "0", bottom: "0", right: "0", backgroundColor: "#454647" }}>
                 <div id="footerInfo">
                     <Social />
                 </div>
