@@ -1,5 +1,6 @@
 import React from 'react'
 // import TourismApp from '../Project/TourismApp.png'
+import './style.css'
 
 function Project(props) {
     return (
@@ -16,7 +17,7 @@ function Project(props) {
                         <div className="card-body mt-5" style={{ margin: "0", fontFamily: "Arial, Helvetica, sans-serif" }} >
                             <p style={{ color: "black", fontWeight: "bold" }}>{props.name}</p>
                             <p>{props.description} </p>
-                            <p style={{ color: "black", fontWeight: "bold" }}>Deployed version: <a href={props.deployed} rel="noreferrer" target="_blank">Here</a></p>
+                            <p style={{ color: "black", fontWeight: "bold" }}>Deployed version: <a href={props.deployed} rel="noreferrer" target="_blank" >Here</a></p>
                             <p style={{ color: "black", fontWeight: "bold" }}>GitHub repository: <a href={props.repository} rel="noreferrer" target="_blank">Here</a></p>
 
                             <p></p>
