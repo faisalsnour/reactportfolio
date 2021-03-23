@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/reactportfolio/static/css/main.fa04bd8f.chunk.css",
-    "main.js": "/reactportfolio/static/js/main.cb4d5d76.chunk.js",
-    "main.js.map": "/reactportfolio/static/js/main.cb4d5d76.chunk.js.map",
-    "runtime-main.js": "/reactportfolio/static/js/runtime-main.7a943840.js",
-    "runtime-main.js.map": "/reactportfolio/static/js/runtime-main.7a943840.js.map",
-    "static/js/2.c63eb1a3.chunk.js": "/reactportfolio/static/js/2.c63eb1a3.chunk.js",
-    "static/js/2.c63eb1a3.chunk.js.map": "/reactportfolio/static/js/2.c63eb1a3.chunk.js.map",
-    "static/js/3.214c948f.chunk.js": "/reactportfolio/static/js/3.214c948f.chunk.js",
-    "static/js/3.214c948f.chunk.js.map": "/reactportfolio/static/js/3.214c948f.chunk.js.map",
+    "main.css": "/reactportfolio/static/css/main.ef2d2278.chunk.css",
+    "main.js": "/reactportfolio/static/js/main.143c1b81.chunk.js",
+    "main.js.map": "/reactportfolio/static/js/main.143c1b81.chunk.js.map",
+    "runtime-main.js": "/reactportfolio/static/js/runtime-main.eb4f43e8.js",
+    "runtime-main.js.map": "/reactportfolio/static/js/runtime-main.eb4f43e8.js.map",
+    "static/js/2.fdca6568.chunk.js": "/reactportfolio/static/js/2.fdca6568.chunk.js",
+    "static/js/2.fdca6568.chunk.js.map": "/reactportfolio/static/js/2.fdca6568.chunk.js.map",
+    "static/js/3.27e28e79.chunk.js": "/reactportfolio/static/js/3.27e28e79.chunk.js",
+    "static/js/3.27e28e79.chunk.js.map": "/reactportfolio/static/js/3.27e28e79.chunk.js.map",
     "index.html": "/reactportfolio/index.html",
-    "static/css/main.fa04bd8f.chunk.css.map": "/reactportfolio/static/css/main.fa04bd8f.chunk.css.map",
-    "static/js/2.c63eb1a3.chunk.js.LICENSE.txt": "/reactportfolio/static/js/2.c63eb1a3.chunk.js.LICENSE.txt",
+    "static/css/main.ef2d2278.chunk.css.map": "/reactportfolio/static/css/main.ef2d2278.chunk.css.map",
+    "static/js/2.fdca6568.chunk.js.LICENSE.txt": "/reactportfolio/static/js/2.fdca6568.chunk.js.LICENSE.txt",
     "static/media/BurgerLogger.5e8e55e8.png": "/reactportfolio/static/media/BurgerLogger.5e8e55e8.png",
     "static/media/LMS.a0e98254.png": "/reactportfolio/static/media/LMS.a0e98254.png",
     "static/media/PasswordGenerator.9ec99dfc.png": "/reactportfolio/static/media/PasswordGenerator.9ec99dfc.png",
@@ -21,9 +21,9 @@
     "static/media/style.css": "/reactportfolio/static/media/heroimg6.bbf44d93.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7a943840.js",
-    "static/js/2.c63eb1a3.chunk.js",
-    "static/css/main.fa04bd8f.chunk.css",
-    "static/js/main.cb4d5d76.chunk.js"
+    "static/js/runtime-main.eb4f43e8.js",
+    "static/js/2.fdca6568.chunk.js",
+    "static/css/main.ef2d2278.chunk.css",
+    "static/js/main.143c1b81.chunk.js"
   ]
 }
