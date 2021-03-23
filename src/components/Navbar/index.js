@@ -11,14 +11,15 @@ function Navbar() {
         <div>
             <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: "#FFFFFF;" }}>
                 <div className="container-fluid">
-                    {/* <a id="navbar-brand" className="navbar-brand" href="index.html"><img id="logo" src="Assets/logo.png" style="top: 5px; left: 5px;" width="40px" height="40px"></a> */}
-                    <Link to="/"><img id="logo" alt="FN logo" src={Logo} style={{ position: "fixed", top: "5px", left: "5px", width: "50px", height: "50px" }} /></Link>
+                    <Link to="/"><img id="logo" alt="FN logo" src={Logo} style={{ top: "2px", left: "2px", width: "40px", height: "40px" }} /></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav" dir="rtl">
                         <ul className="navbar-nav">
                             <li className="nav-item">
+                                {/* <a id="btnContact" class="nav-link active coloredbutton" aria-current="page" href="#contactMe">Contact</a> */}
+
                                 <Link to="/recentprojects" className={location.pathname === "/recentprojects" ? "nav-link active" : "nav-link"}>
                                     <span className="navbarStyle">Recent Projects</span>
                                 </Link>
