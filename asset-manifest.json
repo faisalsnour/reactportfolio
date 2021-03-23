@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/reactportfolio/static/css/main.cc575338.chunk.css",
-    "main.js": "/reactportfolio/static/js/main.88d59c5c.chunk.js",
-    "main.js.map": "/reactportfolio/static/js/main.88d59c5c.chunk.js.map",
-    "runtime-main.js": "/reactportfolio/static/js/runtime-main.7976b4ba.js",
-    "runtime-main.js.map": "/reactportfolio/static/js/runtime-main.7976b4ba.js.map",
+    "main.css": "/reactportfolio/static/css/main.310756bc.chunk.css",
+    "main.js": "/reactportfolio/static/js/main.a35da4f1.chunk.js",
+    "main.js.map": "/reactportfolio/static/js/main.a35da4f1.chunk.js.map",
+    "runtime-main.js": "/reactportfolio/static/js/runtime-main.eb4f43e8.js",
+    "runtime-main.js.map": "/reactportfolio/static/js/runtime-main.eb4f43e8.js.map",
     "static/js/2.c63eb1a3.chunk.js": "/reactportfolio/static/js/2.c63eb1a3.chunk.js",
     "static/js/2.c63eb1a3.chunk.js.map": "/reactportfolio/static/js/2.c63eb1a3.chunk.js.map",
-    "static/js/3.c613bb85.chunk.js": "/reactportfolio/static/js/3.c613bb85.chunk.js",
-    "static/js/3.c613bb85.chunk.js.map": "/reactportfolio/static/js/3.c613bb85.chunk.js.map",
+    "static/js/3.27e28e79.chunk.js": "/reactportfolio/static/js/3.27e28e79.chunk.js",
+    "static/js/3.27e28e79.chunk.js.map": "/reactportfolio/static/js/3.27e28e79.chunk.js.map",
     "index.html": "/reactportfolio/index.html",
-    "static/css/main.cc575338.chunk.css.map": "/reactportfolio/static/css/main.cc575338.chunk.css.map",
+    "static/css/main.310756bc.chunk.css.map": "/reactportfolio/static/css/main.310756bc.chunk.css.map",
     "static/js/2.c63eb1a3.chunk.js.LICENSE.txt": "/reactportfolio/static/js/2.c63eb1a3.chunk.js.LICENSE.txt",
     "static/media/BurgerLogger.5e8e55e8.png": "/reactportfolio/static/media/BurgerLogger.5e8e55e8.png",
     "static/media/LMS.a0e98254.png": "/reactportfolio/static/media/LMS.a0e98254.png",
     "static/media/PasswordGenerator.9ec99dfc.png": "/reactportfolio/static/media/PasswordGenerator.9ec99dfc.png",
+    "static/media/Resume.7d1dc7a6.pdf": "/reactportfolio/static/media/Resume.7d1dc7a6.pdf",
     "static/media/TourismApp.73aa36c5.png": "/reactportfolio/static/media/TourismApp.73aa36c5.png",
     "static/media/WorkDayScheduler.20155fac.png": "/reactportfolio/static/media/WorkDayScheduler.20155fac.png",
     "static/media/style.css": "/reactportfolio/static/media/heroimg6.bbf44d93.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7976b4ba.js",
+    "static/js/runtime-main.eb4f43e8.js",
     "static/js/2.c63eb1a3.chunk.js",
-    "static/css/main.cc575338.chunk.css",
-    "static/js/main.88d59c5c.chunk.js"
+    "static/css/main.310756bc.chunk.css",
+    "static/js/main.a35da4f1.chunk.js"
   ]
 }
