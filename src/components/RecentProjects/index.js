@@ -6,7 +6,7 @@ import WorkDayScheduler from '../RecentProjects/WorkDayScheduler.png'
 import BurgerLogger from '../RecentProjects/BurgerLogger.png'
 import LMS from '../RecentProjects/LMS.png'
 import './style.css'
-import Foooter from '../Foooter'
+// import Foooter from '../Foooter'
 
 function RecentProject() {
     return (

@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 // import About from './components/About'
 import RecentProject from './components/RecentProjects'
-import Footer from "./components/Footer"
+// import Footer from "./components/Footer"
 import Foooter from "./components/Foooter"
 import Wrapper from "./components/Wrapper"
 
