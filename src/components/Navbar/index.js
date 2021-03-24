@@ -8,7 +8,7 @@ function Navbar() {
     const location = useLocation();
 
     return (
-        <div>
+        <> 
             <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: "#FFFFFF;" }}>
                 <div className="container-fluid">
                     <Link to="/"><img id="logo" alt="FN logo" src={Logo} style={{ top: "2px", left: "2px", width: "40px", height: "40px" }} /></Link>
@@ -39,7 +39,7 @@ function Navbar() {
                 </div>
             </nav>
             {/* </nav> <!--end of navbar--> */}
-        </div >
+        </>
     )
 }
 

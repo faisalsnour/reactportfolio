@@ -5,7 +5,9 @@
   color: #868686;
   position: relative;
   /* bottom: 0; */
-  min-height: 100px;
+  /* min-height: 100px; */
+  height: 100px;
+
   /* left: 0;
   width: 100%; */
 }

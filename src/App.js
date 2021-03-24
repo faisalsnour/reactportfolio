@@ -11,21 +11,18 @@ import Wrapper from "./components/Wrapper"
 
 function App() {
   return (
-    <div >
-      <Router>
-        <div >
-          <Navbar />
-          <Wrapper>
-            <Route exact path="/reactportfolio/" component={Home} />
-            <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
-            <Route path="/recentprojects" component={RecentProject} />
-          </Wrapper>
-          <Foooter />
-        </div>
-        {/* <Foooter /> */}
-      </Router>
-    </div>
+    <Router>
+      <Navbar />
+      <Wrapper>
+        <Route exact path="/reactportfolio/" component={Home} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route path="/recentprojects" component={RecentProject} />
+      </Wrapper>
+      <Foooter />
+
+      {/* <Foooter /> */}
+    </Router>
   );
 }
 
