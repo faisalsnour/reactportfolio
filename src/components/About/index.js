@@ -17,7 +17,7 @@ function About() {
                 and testing websites and web-applications.
                 He has BSc in Information Technology & Computing with practical knowledge in web accessibility to
                 develop and implement responsive, modern, and accessible visual designs.
-                He also has professional and post-graduate certifciates and currently enrolled in
+                He also has professional and post-graduate certifciates and recently graduated from the
                 Coding Bootcamp at the University of Toronto
                         </p>
                 <p>
