@@ -8,9 +8,9 @@ A porfolio website built using React to demonstrate the qualifications, projects
 
 The website displays the following:
 
-1. A brief description of qualification, experience and certificates
-2. List of recent project built individually or as a group
-3. Contact information such as email and phone number, and links to LinkedIn and Github profile
+1. A brief description of qualification, experience and certificates.
+2. List of recent project built individually or as a group.
+3. Contact information such as email and phone number, and links to LinkedIn and Github profile.
 
 ## Screenshots:
 
