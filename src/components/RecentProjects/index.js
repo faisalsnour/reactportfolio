@@ -5,12 +5,16 @@ import PasswordGenerator from '../RecentProjects/PasswordGenerator.png'
 import WorkDayScheduler from '../RecentProjects/WorkDayScheduler.png'
 import BurgerLogger from '../RecentProjects/BurgerLogger.png'
 import LMS from '../RecentProjects/LMS.png'
+import GoldieMohrLtd from '../RecentProjects/GoldieMohrLtd.png'
 import './style.css'
 // import Foooter from '../Foooter'
 
 function RecentProject() {
     return (
         <div id="recentProjects">
+            <Project image={GoldieMohrLtd} name="Goldie Mohr Ltd"
+                description="The purpose of this project is to create a new and highly improved website for the company Goldie Mohr Ltd. The website contains home, services & projects, products, about us, careers and contact us pages. It also provide a login features and access to additional pages for registered employees"
+                deployed="https://goldie-mohr-full.herokuapp.com/" repository="https://github.com/GoldieMohrProject/goldie-mohr" />
             <Project image={TourismApp} name="Tourism Application"
                 description="The purpose of this project is to build a web application that allows travellers to search for cities around the world and find useful information so they plan their trips accordingly. For each searched city, the application shows the date, current weather, 5-days weather forecast, local currency of the searched city against Canadian Dollar, popular destination, and google map"
                 deployed="https://faisalsnour.github.io/Tourism-App/" repository="https://github.com/faisalsnour/Tourism-App" />
