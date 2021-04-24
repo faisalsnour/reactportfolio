@@ -8,6 +8,7 @@ import RecentProject from './components/RecentProjects'
 // import Footer from "./components/Footer"
 import Foooter from "./components/Foooter"
 import Wrapper from "./components/Wrapper"
+import Foter from "./components/Foter"
 
 function App() {
   return (
@@ -19,8 +20,8 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route path="/recentprojects" component={RecentProject} />
       </Wrapper>
-      <Foooter />
-
+      {/* <Foooter /> */}
+      <Foter />
       {/* <Foooter /> */}
     </Router>
   );
