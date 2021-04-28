@@ -9,10 +9,12 @@ function Foter() {
                     <div className="row">
                         <div className="col">
                             <div style={{ textAlign: "center", marginBottom: "15px", marginTop: "15px" }}>
-                                <h6 style={{ marginBottom: "15px" }}>Connect with me through</h6>
-                                <li style={{ display: "inline-flex", marginRight: "10px" }}><a href="https://www.linkedin.com/in/faisal-nour/" target="_blank" rel="noreferrer" className="button_social"><i id="linkedinlogo" class="fab fa-linkedin-in fa-2x" aria-hidden="true"></i></a></li>
-                                <li style={{ display: "inline-flex", marginRight: "10px" }}><a href="https://github.com/faisalsnour" target="_blank" rel="noreferrer" className="button_social"><i id="githublogo" class="fab fa-github fa-2x" aria-hidden="true"></i></a></li>
-                                <li style={{ display: "inline-flex", marginRight: "10px" }}><a href="mailto:faisalskhalifa@gmail.com" target="_blank" rel="noreferrer" className="button_social"><i id="twitterlogo" class="fas fa-envelope fa-2x" aria-hidden="true"></i></a></li>
+                                <p style={{ marginBottom: "15px" }}>Connect with me through</p>
+                                <ul style={{ padding: "0px" }}>
+                                    <li style={{ display: "inline-flex", marginRight: "10px" }}><a aria-label="linkedIn" href="https://www.linkedin.com/in/faisal-nour/" target="_blank" rel="noreferrer" className="button_social"><i id="linkedinlogo" className="fab fa-linkedin-in fa-2x" aria-hidden="true"></i> </a></li>
+                                    <li style={{ display: "inline-flex", marginRight: "10px" }}><a aria-label="Github" name="github" href="https://github.com/faisalsnour" target="_blank" rel="noreferrer" className="button_social"><i id="githublogo" className="fab fa-github fa-2x" aria-hidden="true"></i> </a></li>
+                                    <li style={{ display: "inline-flex", marginRight: "10px" }}><a aria-label="Email" name="email" href="mailto:faisalskhalifa@gmail.com" target="_blank" rel="noreferrer" className="button_social"><i id="twitterlogo" className="fas fa-envelope fa-2x" aria-hidden="true"></i> </a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
