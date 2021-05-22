@@ -6,12 +6,17 @@ import WorkDayScheduler from '../RecentProjects/WorkDayScheduler.png'
 import BurgerLogger from '../RecentProjects/BurgerLogger.png'
 import LMS from '../RecentProjects/LMS.png'
 import GoldieMohrLtd from '../RecentProjects/GoldieMohrLtd.png'
+import TheShoppies from '../RecentProjects/TheShoppies.png'
+
 import './style.css'
 // import Foooter from '../Foooter'
 
 function RecentProject() {
     return (
         <div id="recentProjects">
+            <Project image={TheShoppies} name="The Shoppies"
+                description="This single-page web application allows user to search for movies and nominate them accordingly. Users are able to have their nominated movies saved in their web broswers so they can see them saved when they visit the website again. They are only allowed to nominate up to five movies. A banner will be displayed when five movies are nominated. The application uses OMDB's API to obtain information about movies."
+                deployed="https://theshoppies-faisal.herokuapp.com/" repository="https://github.com/faisalsnour/movieSearch" />
             <Project image={GoldieMohrLtd} name="Goldie Mohr Ltd"
                 description="The purpose of this project is to create a new and highly improved website for the company Goldie Mohr Ltd. The website contains home, services & projects, products, about us, careers and contact us pages. It also provide a login features and access to additional pages for registered employees"
                 deployed="https://goldie-mohr-full.herokuapp.com/" repository="https://github.com/GoldieMohrProject/goldie-mohr" />
